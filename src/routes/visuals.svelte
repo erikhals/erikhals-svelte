@@ -12,7 +12,7 @@
 		font-size: 246px;
 		line-height: 150px;
 		text-align: right;
-		text-transform: uppercase;
+		text-transform: lowercase;
 		color: var(--primary-color);
 	}
 	h1 span {

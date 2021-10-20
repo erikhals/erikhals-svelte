@@ -1,8 +1,8 @@
 <svelte:head>
-	<title>Erik Hals</title>
+	<title>erik Hals</title>
 </svelte:head>
 <div class="background">
-	<h1>Erik Hals</h1>
+	<h1>erik hals</h1>
 </div>
 
 <style>
