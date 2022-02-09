@@ -1,27 +1,33 @@
 <svelte:head>
-	<title>erik Hals</title>
+	<title>Erik Hals</title>
 </svelte:head>
 <div class="background">
-	<h1>erik hals</h1>
+	<div class="container">
+		<h1>Digital Designer</h1>
+		<p>Creating visual worlds, stories and experiences</p>
+	</div>
 </div>
 
 <style>
 	h1 {
-		font-family: Megrim;
+		font-family: 'Reem Kufi', sans-serif;
 		font-style: normal;
 		font-weight: 500;
-		font-size: 288px;
+		font-size: 10em;
 		line-height: 250px;
-		text-align: center;
-		letter-spacing: 0.49em;
+		text-align: left;
 		margin: auto;
-		color: rgba(0, 0, 0, 0);
-		-webkit-text-stroke: 1px var(--primary-color);
+		color: #fff0e2;
 		cursor: default;
 		user-select: none;
 	}
+	p {
+	}
 	.background {
 		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 		background: radial-gradient(
 			66.41% 66.41% at 50% 33.59%,
 			#19313f 0%,
@@ -35,5 +41,8 @@
 		right: 0;
 		left: 0;
 		z-index: -1;
+	}
+	.container {
+		max-width: 1920px;
 	}
 </style>

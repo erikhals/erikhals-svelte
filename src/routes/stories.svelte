@@ -2,21 +2,22 @@
 	<title>Erik Hals Stories</title>
 </svelte:head>
 
-<div class="background"><h1>I create <br /> <span>stories</span></h1></div>
+<div class="background"><h1>Crafting <br /> <span>stories</span></h1></div>
 
 <style>
 	h1 {
-		font-family: Megrim;
+		font-family: 'Reem Kufi', sans-serif;
 		font-style: normal;
-		font-weight: 500;
-		font-size: 246px;
-		line-height: 150px;
-		text-align: right;
-		text-transform: lowercase;
+		font-weight: 400;
+		font-size: 10rem;
+		line-height: 12rem;
+		text-align: center;
+
 		color: var(--tertiary-color);
 	}
 	h1 span {
-		font-size: 150px;
+		font-size: 15rem;
+		text-transform: uppercase;
 	}
 	.background {
 		display: flex;

@@ -2,26 +2,35 @@
 	<title>Erik Hals Visuals</title>
 </svelte:head>
 
-<div class="background"><h1>I design <br /> <span>visuals</span></h1></div>
+<div class="background">
+	<div class="container">
+		<h1>Designing <br /> <span>visuals</span></h1>
+	</div>
+</div>
 
 <style>
 	h1 {
-		font-family: Megrim;
+		font-family: 'Reem Kufi', sans-serif;
 		font-style: normal;
 		font-weight: 500;
-		font-size: 246px;
-		line-height: 150px;
-		text-align: right;
-		text-transform: lowercase;
+		font-size: 10rem;
+		line-height: 12rem;
+		text-align: left;
 		color: var(--primary-color);
 	}
 	h1 span {
-		font-size: 150px;
+		font-size: 15rem;
+		text-transform: uppercase;
+	}
+	.container {
+		max-width: 1920px;
+		margin-left: 20vw;
 	}
 	.background {
 		display: flex;
+		flex-direction: column;
 		justify-content: center;
-		align-items: center;
+		align-items: left;
 		background: radial-gradient(
 			66.41% 66.41% at 50% 33.59%,
 			#00829e 0%,

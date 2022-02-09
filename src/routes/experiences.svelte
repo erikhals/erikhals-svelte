@@ -2,21 +2,22 @@
 	<title>Erik Hals Experiences</title>
 </svelte:head>
 
-<div class="background"><h1>I develop <br /> <span>experiences</span></h1></div>
+<div class="background"><h1>Developing <br /> <span>experiences</span></h1></div>
 
 <style>
 	h1 {
-		font-family: Megrim;
+		font-family: 'Reem Kufi', sans-serif;
 		font-style: normal;
 		font-weight: 500;
-		font-size: 246px;
-		line-height: 150px;
+		font-size: 10rem;
+		line-height: 12rem;
 		text-align: right;
-		text-transform: lowercase;
+
 		color: var(--tertiary-color);
 	}
 	h1 span {
-		font-size: 150px;
+		font-size: 15rem;
+		text-transform: uppercase;
 	}
 	.background {
 		display: flex;
