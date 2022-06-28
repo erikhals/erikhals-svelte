@@ -1,11 +1,17 @@
 <script>
-	let bggradient = 'grey';
 	export let path;
+
+	function setColor(p) {
+		return {
+			'/': 'grey',
+			'/visuals': 'blue',
+			'/stories': 'pink',
+			'/experiences': 'yellow'
+		}[p];
+	}
 </script>
 
-{@debug bggradient}
-
-<div class="background {path === '/visuals' ? 'blue' : 'grey'}">
+<div class="background {setColor(path)}">
 	<slot />
 </div>
 
@@ -25,35 +31,15 @@
 		transition: all 2s;
 	}
 	.grey {
-		background: radial-gradient(
-			66.41% 66.41% at 50% 33.59%,
-			#19313f 0%,
-			#18242b 67.19%,
-			#161616 100%
-		);
+		background: #18242b;
 	}
 	.blue {
-		background: radial-gradient(
-			66.41% 66.41% at 50% 33.59%,
-			#00829e 0%,
-			#00404f 67.19%,
-			#003642 100%
-		);
+		background: #00404f;
 	}
 	.pink {
-		background: radial-gradient(
-			66.41% 66.41% at 50% 33.59%,
-			#b0006a 0%,
-			#830076 67.19%,
-			#4f1749 100%
-		);
+		background: #830076;
 	}
 	.yellow {
-		background: radial-gradient(
-			66.41% 66.41% at 50% 33.59%,
-			#dbb800 0%,
-			#926632 67.19%,
-			#7a4e1a 100%
-		);
+		background: #926632;
 	}
 </style>

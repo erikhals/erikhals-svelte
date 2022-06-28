@@ -1,6 +1,5 @@
 <script>
 	import Mainblock from '$lib/components/Mainblock.svelte';
-	import Background from '$lib/components/Background.svelte';
 </script>
 
 <svelte:head>
