@@ -2,7 +2,12 @@
 	<title>Erik Hals Stories</title>
 </svelte:head>
 
-<div class="background"><h1>Crafting <br /> <span>stories</span></h1></div>
+<div class="background">
+	<h1>
+		Crafting <br />
+		<span>stories</span>
+	</h1>
+</div>
 
 <style>
 	h1 {

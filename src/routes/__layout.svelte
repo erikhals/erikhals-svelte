@@ -1,7 +1,11 @@
 <script>
 	import '../app.css';
 	import { theme } from '$lib/stores';
+	import { page } from '$app/stores';
 	import Header from '$lib/components/Header.svelte';
+	import Footer from '$lib/components/Footer.svelte';
+	import Backtround from '$lib/components/Background.svelte';
+	import Background from '$lib/components/Background.svelte';
 </script>
 
 <svelte:head>
@@ -13,9 +17,14 @@
 </svelte:head>
 
 <Header />
+
 <main>
-	<slot />
+	<Background path={$page.path}>
+		<slot />
+	</Background>
 </main>
+
+<Footer />
 
 <style>
 	main {

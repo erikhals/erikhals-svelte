@@ -2,7 +2,12 @@
 	<title>Erik Hals Experiences</title>
 </svelte:head>
 
-<div class="background"><h1>Developing <br /> <span>experiences</span></h1></div>
+<div class="background">
+	<h1>
+		Developing <br />
+		<span>experiences</span>
+	</h1>
+</div>
 
 <style>
 	h1 {
